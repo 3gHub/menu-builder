@@ -1,0 +1,33 @@
+{
+    "name": "laranine/laravel-menu",
+    "description": "drag and drop menu generator like wordpress for laravel 5",
+    "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
+    "authors": [
+    	{
+            "name": "Web Dev",
+            "email": "biswadeep.mondal@3gmediasolution.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "6.* || 7.* || 8.* || 9.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Harimayco\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harimayco\\Menu\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Harimayco\\Menu\\Facades\\Menu"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
