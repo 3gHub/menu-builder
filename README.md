@@ -179,5 +179,5 @@ you can edit the menu interface in **_resources/views/vendor/wmenu/menu-html.bla
 
 ### Compatibility
 
-- Tested with laravel 6.x, 7.x,8.x,9.x
+- Tested with laravel 6.x, 7.x,8.x,9.x,10.x
 
